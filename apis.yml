@@ -1,7 +1,26 @@
 aid: eden-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eden-robotics.png
 name: Eden Robotics
-description: Eden Robotics is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Eden Robotics is a Y Combinator-backed robotics company building autonomous
+  robots for industrial operations, delivered on a robots-as-a-service model that
+  starts at roughly $10 per hour with no setup fees. The offering is positioned as
+  plug-and-play, requiring no on-site engineers or specialized robotics hires, and
+  is powered by the company''s Theta OS platform. As of this profile the company
+  publishes a single marketing and sales-contact website and does not expose a public
+  API, developer portal, SDKs, or OpenAPI definition; this record captures the
+  verified company identity and domain-security posture and will be upgraded if and
+  when a developer surface is published.'
 url: https://raw.githubusercontent.com/api-evangelist/eden-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Robotics
+- Autonomous Robots
+- Industrial Automation
+- Robotics as a Service
+- Artificial Intelligence
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/eden-robotics-domain-security.yml
+- type: Website
+  url: https://www.edenrobotics.ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
